@@ -6,7 +6,7 @@ This Python program gathers staff information, generates a unique Requisition ID
 
 - Records and shows personnel data, such as the date, the employee's ID, their name, and a special Requisition ID.
 - Requests the entry of the cost, quantity, and products on the requisition.
-- Determines the overall cost of all things that are requisitioned.
+- Gives overall cost of all things that are requisitioned.
 - If the total cost of the request is $500 or less, it is approved; if not, it is marked as pending.
 - Shows all personnel and requisition information.
 
