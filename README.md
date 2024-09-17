@@ -24,6 +24,12 @@ This Python program gathers staff information, generates a unique Requisition ID
 4. **Display Information**:  
    The program outputs the staff details, requisition items, quantities, and the total value of the requisition.
 
+Code Structure
+staff_info(): Collects staff details and generates a unique Requisition ID.
+requisitions_total(): Collects requisition items, their quantity, and price, then calculates the total cost.
+requistion_approval(): Determines whether the requisition is approved or pending based on the total cost.
+display_requistons(): Displays all staff and requisition information.
+
 ## How to Run
 
 1. Clone the repository:
