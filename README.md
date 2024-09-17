@@ -1,21 +1,31 @@
-Staff Requisition System Overview
-This Python program gathers staff details, generates a unique Requisition ID, and calculates the total cost of items requested. It also assesses whether the requisition should be approved based on its total value.
+# Staff Requisition System
 
-Key Features
-Captures and displays staff information, including the date, Staff ID, Staff Name, and a unique Requisition ID.
-Allows the user to input requisition items, along with their quantities and costs.
-Computes the total cost of the requested items.
-Approves requisitions if the total cost is $500 or less; otherwise, the requisition is marked as pending.
-Outputs all relevant staff and requisition details.
-Workflow
-Collect Staff Information:
-The program begins by asking the user to provide staff details, including the date, Staff ID, and Staff Name.
+This Python program gathers staff information, generates a unique Requisition ID, and calculates the total cost of requested items. It also determines the approval status based on the total requisition value.
 
-Input Requisition Items:
-The user is prompted to enter three requisition items, along with their quantity and price. The total cost of the requisition is then calculated.
+## Features
 
-Requisition Approval:
-If the total cost is $500 or less, the requisition is automatically approved. If it exceeds $500, the requisition is marked as pending.
+- Captures and displays staff information, including Date, Staff ID, Staff Name, and a unique Requisition ID.
+- Prompts for input of requisition items, their quantities, and cost.
+- Calculates the total cost of all requisitioned items.
+- Approves requisitions if the total cost is $500 or less; otherwise, marks them as pending.
+- Displays all staff and requisition details.
 
-Display Information:
-Finally, the program displays all collected staff and requisition information, including the total value of the requisition.
+## Workflow
+
+1. **Collect Staff Information**:  
+   The program starts by asking the user to input staff details such as the date, Staff ID, and Staff Name.
+
+2. **Input Requisition Items**:  
+   The user is prompted to enter three requisition items, along with their quantities and prices. The total cost is then calculated.
+
+3. **Requisition Approval**:  
+   Requisitions are approved if the total cost is $500 or less. If the cost exceeds $500, the requisition status is set to pending.
+
+4. **Display Information**:  
+   The program outputs the staff details, requisition items, quantities, and the total value of the requisition.
+
+## How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/repositoryname.git
