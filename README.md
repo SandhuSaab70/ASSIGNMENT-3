@@ -7,7 +7,7 @@ This Python program gathers staff information, generates a unique Requisition ID
 - Records and shows personnel data, such as the date, the employee's ID, their name, and a special Requisition ID.
 - Requests the entry of the cost, quantity, and products on the requisition.
 - Gives overall cost of all things that are requisitioned.
-- If the total cost of the request is $500 or less, it is approved; if not, it is marked as pending.
+- If the total cost of items is $500 or less it is approved or it is marked as pending.
 - Shows all personnel and requisition information.
 
 ## Operation
@@ -19,7 +19,7 @@ This Python program gathers staff information, generates a unique Requisition ID
    The user is prompted to enter three requisition items, along with their quantities and prices. The total cost is then calculated.
 
 3. **Requisition Approval**:  
-   If the total cost of the request is $500 or less, it is authorized. The request status is set to pending if the cost is greater than $500.
+   If the total cost of the request is $500 or less it is granted. The request status is pending if the cost is above $500.
 
 4. **Display Information**:  
    The program outputs the staff details, requisition items, quantities, and the total value of the requisition.
