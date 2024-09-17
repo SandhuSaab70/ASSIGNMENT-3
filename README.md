@@ -24,11 +24,6 @@ This Python program gathers staff information, generates a unique Requisition ID
 4. **Display Information**:  
    The program outputs the staff details, requisition items, quantities, and the total value of the requisition.
 
-## How to Run
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/repositoryname.git
 
 ## Code Structure
 
@@ -38,8 +33,4 @@ This Python program gathers staff information, generates a unique Requisition ID
 4. display_requistons(): Displays all staff and requisition information.
 
 
-## How to Run
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/repositoryname.git
