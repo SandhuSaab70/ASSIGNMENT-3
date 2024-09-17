@@ -10,7 +10,7 @@ This Python program gathers staff information, generates a unique Requisition ID
 - If the total cost of the request is $500 or less, it is approved; if not, it is marked as pending.
 - Shows all personnel and requisition information.
 
-## Workflow
+## Operation
 
 1. **Collect Staff Information**:  
    The program starts by asking the user to input staff details such as the date, Staff ID, and Staff Name.
