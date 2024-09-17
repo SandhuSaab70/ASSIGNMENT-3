@@ -34,7 +34,7 @@ This Python program gathers staff information, generates a unique Requisition ID
 
 1. staff_info(): Collects staff details and generates a unique Requisition ID.
 2. requisitions_total(): Collects requisition items, their quantity, and price, then calculates the total cost.
-3. requistion_approval(): Determines whether the requisition is approved or pending based on the total cost.
+3. requistion_approval(): Depending on the total cost, decides if the requisition is accepted or pending.
 4. display_requistons(): Displays all staff and requisition information.
 
 
