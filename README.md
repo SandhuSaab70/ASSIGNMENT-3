@@ -19,7 +19,7 @@ This Python program gathers staff information, generates a unique Requisition ID
    The user is prompted to enter three requisition items, along with their quantities and prices. The total cost is then calculated.
 
 3. **Requisition Approval**:  
-   Requisitions are approved if the total cost is $500 or less. If the cost exceeds $500, the requisition status is set to pending.
+   If the total cost of the request is $500 or less, it is authorized. The request status is set to pending if the cost is greater than $500.
 
 4. **Display Information**:  
    The program outputs the staff details, requisition items, quantities, and the total value of the requisition.
